@@ -1,0 +1,55 @@
+html, body 
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: auto;
+    width: 100%;
+    background-color: blue ;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.roxo {
+    background: purple;
+}
+
+.vermelho {
+    background: red;
+}
+
+.verde {
+    background: rosybrown;
+}
+
+.azul {
+    background: rgb(0, 153, 255);
+}
+
+.preto {
+    background: black;
+}
+
+.amarelo{
+    background: yellow;
+}
+
+.amareloverde {
+    background: yellowgreen;
+}
+
+.marrom{
+    background: brown;
+}
+
+.branco {
+    background: rgb(201, 28, 129);
+}
